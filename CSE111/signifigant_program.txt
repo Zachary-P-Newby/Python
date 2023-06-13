@@ -1,0 +1,9 @@
+library catalougue
+data visulization
+disease simulator
+life simulator
+
+
+input data
+preform calculations
+visualize data

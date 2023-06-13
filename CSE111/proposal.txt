@@ -1,0 +1,37 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+	Auto-Graph
+
+2. What real-world problem will your program address or help to solve?
+	Auto-Graph will be a piece of data-visualization software for .csv files, excel spreadhseets, etc. It automatically graphs them for you. Hence the name Auto-Graph 
+
+3. What will you learn from developing this program?
+	How to use multiple python modules, process user inputted files, and create a standalone (no code editor needed to run) program.
+4. What Python modules will your program use?
+
+    pandas, matplotlib, numpy, tkinter, and datetime. (Numpy and datetime are here because pandas uses them.) Any modules required by the ones listed will be used as well.
+
+5. Will you separate your Python program into functions that each
+perform a single task?
+
+
+	Yes, users input a file, then select which functions to use the file it. Graphing functions, histogram functions, etc.
+	
+	PROCESS fucntions will process data and make graphs (re-useable), the graphs will then be displayed by DISPLAY functions (less re-useable.)
+
+
+6. Will you write test functions to test at least two of your program
+functions?
+
+Yes, PROCESS funtions will tested by PYTEST by comparing their output to an expected output.
+

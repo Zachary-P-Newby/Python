@@ -1,0 +1,13 @@
+Auto-Graph:
+
+    A data visualization program using pandas, matplotlib, tkinter, and any libraries required by them.
+Simply input a .csv or excel file, and Auto-Graph will produce a number of charts and graphs based on
+it. You can select which ones you want to view and even (if possible) get them outputted as .jpgs files
+Tkinter will be used to create the graphical interface, pandas for data processing, and matplotlib for
+graphing. Auto-Graph is copyrighted by Zach P. Newby, under basic software license.
+
+Input:
+.csv .xslx files
+
+Output:
+Displays generated charts and graphs or converts them to .jpgs.

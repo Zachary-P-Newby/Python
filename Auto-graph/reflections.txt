@@ -1,0 +1,25 @@
+Please respond thoroughly (at least two sentences for each question) to
+the following three questions.
+
+1. Describe an experience you had this semester where you saw the power of
+functions.
+
+Well, working on my final project Auto-Graph, and being able to make graphs, GUIs, and and dataframes using libraries showed how powerful functions could be.
+I can't really think of just one expirence, but working with me team on group assignments was another time where I saw the power of functions.
+
+
+2. In your judgment, what is the value of test functions?
+They are extremely useful for testing functions that should return one output for each input.
+This way you can make sure functions that preform mathmatical operations, operations on strings, and are reuseable work properly and do not break your program.
+
+One thing I learned this semester is that if just one thing is wrong, it can mess up the whole program, so being able to easily test it and find errors is useful.
+
+
+3. Describe your process for troubleshooting and fixing a program that
+has a problem. What is one thing you can do to improve your process?
+
+I just run the program, or a specific section, and see if it works how I want it to.
+If it does great, if it doesn't I will alter somethin and repeat until it does.
+
+I need to use pytest test functions more, as with my final project whenever I tried to use them, it said pandas could not work with them,
+and they don't work with graphical results.
