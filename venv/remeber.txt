@@ -1,0 +1,11 @@
+take notes about the data structres you learn. USe this structure:
+
+What is the purpose of this data structure and when is it used?
+
+What is the performance of this data structure (you learn about performance in Week 2)?
+
+How does the data structure work and how do you use it with Python?
+
+What are some common errors you may encounter while using the data structure?
+
+The reading and the assignments contain several problem that require the use of data structures. Can you write additional problems on your own to solve?

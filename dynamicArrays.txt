@@ -1,0 +1,20 @@
+Fixed arrays are collections of data with a set capacity, where each piece of data is the same size and next to eachother in memory. Fixed arrays are immutable.
+
+The position of each element in memory can be calculated based off of the location of index zero in memory
+
+Dynamic arrays are mutable, meaning they can grow and shrink, being at less than full capacity, or if max capacity is exceeded, the old array is replaced with a new one.
+
+If an array exceeds its capacity, it enters an overflow state and risks overwriting other data on the computer.
+
+Use the scientific method when solving problems when programming.
+
+1. Identify problem
+2. Research solution
+3. test research
+4. Hypothisize solution
+5. Integrate solution and evalulate it
+6a. solution works continue on merry way.
+6b. Solution fails, research new solution
+
+Not using method can be sloppy, dangerous, careless, or worse.
+
