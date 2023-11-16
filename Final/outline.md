@@ -13,3 +13,16 @@ Cover
 * Errors
 * Common Pitfalls
 
+
+
+# Welcome
+* 
+
+# Stack
+* 
+
+# Linked List
+* 
+
+# Tree
+* 
