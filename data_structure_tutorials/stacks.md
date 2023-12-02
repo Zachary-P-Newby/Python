@@ -7,7 +7,9 @@
 The stack is the first data structure we will learn about. The stack is a container for objects where **the last object put in is the first one pulled out.**
 (The stack is called a "last-in, first-out" structure) A good way to visualize the stack would be to imagine a stack of books, if you want to remove a book from the stack, you must remove all of the books on top of it first, or else it will fall over. Objects can only be removed from a stack in the opposite order they were out in.
 
-As Jesus said: *"16 So the last shall be first, and the first last: for many be called, but few chosen."*  [Matthew 20:16](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/20?lang=eng&id=p16#p16)
+As Jesus said: 
+ > "16 So the last shall be first, and the first last: for many be called, but few chosen."
+[Matthew 20:16](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/20?lang=eng&id=p16#p16)
 
 If you have ever experienced a stack trace or stack overflow error, then you have encountered the stack. This is the data structure for which [https://stackoverflow.com](https://stackoverflow.com) is named after.
 
@@ -35,7 +37,7 @@ print(stack)
 ```
 stack.pop()
 print(stack)
-```
+``` 
 
 **[1,2]**
 
