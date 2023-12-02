@@ -13,7 +13,7 @@ As Jesus said:
 
 If you have ever experienced a stack trace or stack overflow error, then you have encountered the stack. This is the data structure for which [https://stackoverflow.com](https://stackoverflow.com) is named after.
 
-## The purpose of the stack and why it matters
+## The Purpose of the Stack and Why it Matters
 **The primary purpose of the stack is to function like a real stack and force you to add or remove objects from the end (or top) of the stack.** This may not sound like much, but because you only add or remove objects from the end of the stack (and do not rearrange the order of objects inside of the stack), **the stack naturally retains a record of what was added to it** without any other operations or memory usage. **This makes the stack one of the most useful of all data structures.** Programs use this functionality to keep track of operations on your computer, which is useful for a multitude of purposes, from debugging to error handling. Computer operating systems like the one you are using right now likely could not function without the stack.
 
 The most famous use of the stack is the undo function in text editors or art programs. The operations you perform and state they left the document are recorded to a stack, so if you choose to undo one, the program just moves back to the previous operation by removing the latest action and restoring the document to its previous state. (*Note: This is an extremely simplified version of how undo works. Not to mention the redo function*)
