@@ -164,3 +164,12 @@ Here are three of the common mistakes you can make when working with linked list
  * **Assigning the wrong** *next* **and** *prev* **nodes** - Always be sure you put the right *next* and *prev* pointers so you don't accidentally create a linked list that splits into. It would be like trying to connect two train cars to the engine at the same time.
 
  * **Forgetting to change** *next* **and** *prev* **Values into the nodes you insert or remove between** - If you do you will have what could be called a "phantom node". It points to the rest of the linked list, but the linked list does not point to it, so if you loop through the linked list it will be ignored.
+
+
+## Now you try:
+Now it's your turn! Download the [Practice File](https://github.com/Zachary-P-Newby/Python/blob/Programming-With-Data-Structures-Fall-2023/data_structure_tutorials/linked_lists.py) and see what you can do. See how many challanges you can complete.
+
+Challenges:
+ * Create and lopp through a linked list using the linked list class provided
+ * Modify __init__ function so you can create nodes when first instanciating
+ * Create *remove_head* and *remove_tail* functions for the linked list class provided

@@ -48,3 +48,11 @@ As you can see the stack is incredibly easy to use, just remember to not make th
 * **Inserting or removing an item from somewhere other than the end of the stack.** - This disrupts the order and defeats the whole purpose of the stack. The only exception would be removing an item from the start of the stack if you are limiting the size of it. Speaking of which...
 * **Letting a stack grow uncontrollably** - lists in Python have no size limit, so if you let a stack grow out of control it can take up memory on your computer you don't want it to, which can slow operations down or break them altogether. If you are limiting the size of the stack, only remove items from the start or end to maintain the order.
 * **Using** *tuples*, *sets*, **or other similar data types.** - Tuples are immutable once created, meaning you cannot add or remove items from them, preventing them from functioning as a stack. Sets are unordered, meaning you can't keep track of the order in which items were added to the stack, and they only contain unique values, so if you add the same object multiple times to a set, only one will show up.
+
+## Now you try:
+Now it's your turn! Download the [Practice file](https://github.com/Zachary-P-Newby/Python/blob/Programming-With-Data-Structures-Fall-2023/data_structure_tutorials/stacks_practice.py) and play around with stacks.
+
+Challenges:
+ * Fill a stack up with numbers and empty it out using loops
+ * Use a stack to reverse a word by looping through the string and add each letter to the stack before removing and joining each letter together.
+ * Try nesting a stack inside a stack

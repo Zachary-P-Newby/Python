@@ -30,6 +30,7 @@ class LinkedList:
 
     def __init__(self):
         #The head and tail values can be defined either inside or outside of the methods since we do not create any nodes upon instantiating.
+        
         """self.head = None
         self.tail = None """
     
