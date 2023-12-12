@@ -1,5 +1,5 @@
 """ Binary Tree Practice File"""
-
+# I used docstrings from the lessons to save time building the practice file
 class BinaryTree:
     """ A Simple Binary Tree that does not allow duplicates. When creating an instance you can include a data value for the root node"""
     def __init__(self, root_data = None):
@@ -57,19 +57,74 @@ class BinaryTree:
                 self._insert(data, root.left)
     
     def __iter__(self):
-        """ This is a generator function. When a loop is preformed on the tree this function is called. Start at the root and move forward.
-        When it hits the end of a subtree it will yield all of the data values of that subtree up to the last point where the subtree split in two."""
+        """
+        Perform a forward traversal (in order traversal) starting from 
+	    the root of the BST.  This is called a generator function.
+        This function is called when a loop	is performed:
 
+        for value in my_bst:
+            print(value)
+
+        """
         yield from self._traverse_forward(self.root)
 
+
     def _traverse_forward(self, node):
-        """ Traverse through tree, returning nodes in order from the smallest to the largest """
+        """
+
+
+        Does a forward traversal (in-order traversal) through the 
+        BST.  If the node that we are given (which is the current
+        sub-tree) exists, then we will keep traversing on the left
+        side (thus getting the smaller numbers first), then we will 
+        provide the data in the current node, and finally we will 
+        traverse on the right side (thus getting the larger numbers last).
+
+        The use of the 'yield' will allow this function to support loops
+        like:
+
+        for value in my_bst:
+            print(value)
+
+        The keyword 'yield' will return the value for the 'for' loop to
+	    use.  When the 'for' loop wants to get the next value, the code in
+	    this function will start back up where the last 'yield' returned a 
+	    value.  The keyword 'yield from' is used when our generator function
+        needs to call another function for which a `yield` will be called.  
+        In other words, the `yield` is delegated by the generator function
+        to another function.
+
+        This function is intended to be called the first time by 
+        the __iter__ function.
+        """
 
         if node is not None:
-            
             yield from self._traverse_forward(node.left)
             yield node.data
             yield from self._traverse_forward(node.right)
+
+
+    def __reversed__(self):
+        """ Iterates through the tree in reverse order. Starting with the largest node and ending with the smallest"""
+
+        yield from self._traverse_backward(self.root)
+    
+    def _traverse_backward(self, node):
+        """ Iterates through the tree starting with the largest node and ending with the smallest """
+
+        #YOUR CODE HERE
+        pass
+    
+
+    def contains(self, value):
+        """ Searches tree to see if the value is contained within. Returns true if found, false if not. """
+        
+        for i in self:
+            if i == value:
+                return True
+        else:
+            return False
+        
 
 
 #Practice Code
@@ -88,5 +143,17 @@ bi_tree.insert(16)
 bi_tree.insert(25)
 
 # Now to loop through using __iter__function
+print(""*5)
+print("Nodes:")
 for i in bi_tree:
     print(i)
+
+print(""*5)
+print(f"Is 12 in tree: {bi_tree.contains(12)}")
+print(f"Is 4 in tree: {bi_tree.contains(4)}")
+
+
+#Revered challange test code:
+print(""*5)
+for x in reversed(bi_tree):
+    print(x)

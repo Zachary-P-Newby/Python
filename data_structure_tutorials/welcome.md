@@ -1,4 +1,8 @@
 # Welcome!
+
+## Note to Intructor:
+I reviewed the course materials and used them as reference for creating my lessons. I tried to make my own versions of the linked list and tree from memory for the practice files, but I did view and borrow snippets from the course files to complete. (Bits of code, doc strings, etc. I figured it would be alright for the practice files since they are not required, but made s)
+
 This is the **Zach Newby Data Structure tutorial series!** Here you will find tutorials on **three** data structures commonly used in programming.
 
 1. [Stacks](https://github.com/Zachary-P-Newby/Python/blob/Programming-With-Data-Structures-Fall-2023/data_structure_tutorials/stacks.md)
